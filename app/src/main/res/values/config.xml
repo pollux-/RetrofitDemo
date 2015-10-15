@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--http://farm{farm-id}.staticflickr.com/{server-id}/{id}_{secret}.jpg-->
+    <string name="image_url">"http://farm%1$s.staticflickr.com/%2$s/%3$s_%4$s.jpg"</string>
+
+</resources>

@@ -8,7 +8,7 @@ import retrofit.Retrofit;
  */
 public class RestClient {
 
-    private static final String BASE_URL = "https://api.flickr.com/services/rest";
+    private static final String BASE_URL = "https://api.flickr.com/services/rest/";
     private RestServices mRestClient;
 
 

@@ -11,7 +11,8 @@ import retrofit.http.Query;
  */
 public interface RestServices {
 
-    @GET("/?method=flickr.photos.search&format=json&nojsoncallback=1")
+    @GET("?method=flickr.photos.search&format=json&nojsoncallback=1&per_page=12")
     Call<Image> getImageList(@Query("api_key") String apiKey, @Query("text") String searchKey);
+
 
 }
